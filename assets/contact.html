@@ -34,36 +34,46 @@
     </div>
 
      <!--Container for main content-->
-    <div class="container">
-         <br><br>
-         <h2 class="ui inverted header">
-            <i class="settings icon"></i>
-            <div class="content">
-              Contact Me
-              <div class="sub header">Ask me anything!</div>
-            </div>
-          </h2>
-        <div class="ui form">
-            <div class="inline fields">
-              <div class="four wide field">
-                <label>Name</label>
-                <input type="text" placeholder="First Name">
-              </div>
-              <div class="four wide field">
-                <input type="text" placeholder="Last Name">
-              </div>
-            </div>
-        </div>
-            <div class="ui form">
+    <div class="ui grid">
+        <div class="two wide column"></div>
+        <div class="ui container left aligned">
+            <br><br><br>
+            <h2 class="ui inverted header">
+                <i class="settings icon"></i>
+                <div class="content">
+                Contact Me
+                <div class="sub header">Ask me anything!</div>
+                </div>
+            </h2>
+            <div class="ui inverted large form">
                 <div class="inline fields">
-                    <div class="eight wide field">
-                        <label>E-mail</label>
-                        <input type="text" placeholder="E-mail">
-                    </div>
+                <div class="four wide field">
+                    <label>Name</label>
+                    <input type="text" placeholder="First Name">
+                </div>
+                <div class="four wide field">
+                    <input type="text" placeholder="Last Name">
+                </div>
                 </div>
             </div>
-        <label>Submit</label>
-        <div class="ui inverted submit button">Submit</div>
+                <div class="ui inverted large form">
+                    <div class="inline fields">
+                        <div class="required eight wide field">
+                            <label>E-mail</label>
+                            <input type="text" placeholder="E-mail">
+                        </div>
+                    </div>
+                </div>
+            <div class="ui inverted large form">
+                <div class="ten wide field">
+                    <label>Your Message:</label>
+                    <textarea rows="3"></textarea>
+                </div>
+                </div>
+            <br>
+            <label>Submit</label>
+            <div class="ui inverted submit button">Submit</div>
+        </div>
     </div>
 </body>
 </html>
